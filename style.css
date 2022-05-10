@@ -7,14 +7,15 @@ p {
 }
 
 .header {
-    width: 100%;
+    width: 100vw;
+    min-width: 1235px;
     height: 138px;
     text-align: end;
 
     background-color: #AE6EC2;
 
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 24pt;
 }
 
@@ -22,5 +23,40 @@ p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    margin: 0 50px;
+    margin: 0 30px;
+
+    display: inline-block;
+
+    /* запрет на выделение текста */
+    /**
+    Для эксплорера
+    */
+    -ms-user-select: none;
+
+    /**
+    Для мозилы
+    */
+    -moz-user-select: none;
+
+    /**
+    Для конкверора
+    */
+    -khtml-user-select: none;
+
+    /**
+    Для Сафари и Хрома
+    */
+    -webkit-user-select: none;
+}
+
+.header_text:hover {
+    text-shadow: 4px 4px 3px rgba(255, 255, 255, 30);
+}
+
+.colBlock {
+    width: 100vw;
+    height: 65vh;
+
+    background-color: #EDB5FF;
+
 }
