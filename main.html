@@ -11,12 +11,13 @@
 
 <body>
     <div class="header">
-        <p class="header_text"><b>о нас</b></p>
+        <p class="header_text">о нас</p>
         <p class="header_text">кто мы?чтомы?</p>
         <p class="header_text">новости</p>
         <p class="header_text">поддержать проект</p>
     </div>
-    <div class="colBlock" style="height: 70vh;">
+    <div class="colBlock"
+        style="height: 70vh; background: linear-gradient(180deg, rgba(237,181,255,1) 0%, rgba(225,132,255,1) 100%);">
         <p class="block_text" style="top: 20%; font-size: 3.5vw;">просто</p>
         <p class="block_text" style="top: 20%; font-size: 7vw;">SCRAFTY</p>
         <div
@@ -46,15 +47,15 @@
     </div>
     <div class="colBlock">
         <p class="block_text"
-            style="color: #5C306A; text-align: end; text-transform: uppercase; padding: 150px; padding-bottom: 0; font-size: 32pt;">
+            style="color: #5C306A; text-align: end; text-transform: uppercase; padding: 150px; padding-bottom: 0; padding-top: 100px; font-size: 32pt;">
             как это работает?</p>
         <p class="block_text"
-            style="color: #5e306ad8; text-align: justify; padding: 150px; padding-top: 15px; font-size: 24pt;">
+            style="color: #5e306ad8; text-align: justify; padding: 150px; padding-bottom: 60px; padding-top: 15px; font-size: 24pt;">
             На нашей платформе креэйтеры рамещают свои работы в общем каталоге.
             В нем каждый может просмотреть понравившийся пост и приобрести прилагающиеся к нему схемы/видео-туториалы, а
             также kit-наборы, коробочки со всеми необходимыми материалами для изготовления штучки с картинки.
             Авторы схем получают проценты с продаж?</p>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; margin-top: 100px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr;">
             <div>
                 <p class="block_text"
                     style="color: #5C306A; text-align: start; text-transform: uppercase; padding: 150px; padding-bottom: 0; padding-top: 100px; font-size: 42pt;">
@@ -83,16 +84,16 @@
         </div>
     </div>
     <div class="WiteBlock">
-        <di style="display: grid; grid-template-columns: 1fr 2fr; padding-top: 100px;">
-            <div style="margin: 0 auto;"><img src="card.png" alt="" style="display: inline-block; text-align: right;">
-
+        <di style="display: grid; grid-template-columns: 1fr 1.5fr; padding-top: 100px;">
+            <div style="margin: 0 0; text-align: end;">
+                <img src="card.png" alt="" style="display: inline-block; text-align: right;">
             </div>
             <div class="block_text" style="display:inline-block; text-align: center;">
                 <p
-                    style="color: #5C306A; text-align: start; padding-left: 30px; text-transform: uppercase; padding: 150px; padding-bottom: 0; padding-top: 100px; font-size: 42pt;">
+                    style="color: #5C306A; text-align: start;  text-transform: uppercase; padding: 150px; padding-left: 45px; padding-bottom: 0; padding-top: 110px; font-size: 42pt;">
                     ТА КАК ЭТО ВСЁ ВЫГЛЯДИТ?</p>
                 <p
-                    style="color: #5C306A; text-align: start; padding-left: 30px; text-transform: uppercase; padding: 150px; padding-bottom: 0; padding-top: 100px; font-size: 18pt;">
+                    style="color: #5C306A; text-align: start;  text-transform: uppercase; padding: 150px; padding-left: 45px; padding-bottom: 0; padding-top: 15px; font-size: 18pt;">
                     Пост в себя включает удобное превью с несколькими фотографиями, короткое описание и доступные
                     варианты приобретения scraft-а.
                     Внизу поста есть ссылка на галлерею автора.
@@ -100,15 +101,15 @@
                     приобрести kit-box по цене материалов.</p>
             </div>
         </di>
-
+    </div>
+    <div class="WiteBlock" style="height: 50vh;">
         <p class="block_text" style="padding-top: 100px;">Подпишись на новости!</p>
-        <div style="height: 5%; margin-top: 30px;">
-            <input type="text" placeholder="Введите email"
-                style="width: 20%; display: inline-block; font-size: 18pt; color: #5C306A;">
-            <button
-                style="height: 60%; padding: 5px; margin: 0; margin-left: 10px; background-color: #5C306A; color: white;">ПОДПИСАТЬСЯ</button>
+        <div style="height: 4.5vh; margin-top: 30px;">
+            <input type="text" placeholder="Введите свой email"
+                style="width: 20%; display: inline-block; font-size: 18pt; color: #5C306A; border-radius: 7px; border: dotted 1px; padding: 7px; box-shadow: 5px 5px 2px #5C306A;">
+            <button id="butEmail"
+                style="transition: .2s ease-out; height: 100%; padding: 5px; margin: 0; margin-left: 20px; border-radius: 7px; font-weight: bold; font-size: 11pt; padding: 10px; font-family: 'Montserrat', sans-serif; letter-spacing: 2px; cursor: pointer; background-color: #7c3c8f; color: white;">ПОДПИСАТЬСЯ</button>
         </div>
-
     </div>
 
 </body>

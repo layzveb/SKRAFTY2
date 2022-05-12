@@ -12,7 +12,8 @@ p {
     height: 10vh;
     text-align: end;
 
-    background-color: #AE6EC2;
+    /* background-color: #AE6EC2; */
+    background-color: white;
 
     text-transform: uppercase;
     font-weight: 600;
@@ -25,6 +26,9 @@ p {
     transform: translateY(-50%);
     margin: 0 30px;
     font-weight: 400;
+
+    /* color: white; */
+    color: #904fa3;
 
     display: inline-block;
 
@@ -54,7 +58,8 @@ p {
 }
 
 .header_text:hover {
-    text-shadow: 4px 4px 5px #edb5ffd4;
+    text-shadow: 0 0 3px #7c3c8f;
+    color: #7c3c8f;
     cursor: pointer;
     transform: translateY(-60%);
     transition: 0.2s ease-out;
@@ -93,4 +98,11 @@ p {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
+}
+
+#butEmail:hover {
+    box-shadow: 5px 5px 6px #5C306A;
+    color: #EDB5FF;
+    background: #EDB5FF;
+    transition: .2s ease-out;
 }
